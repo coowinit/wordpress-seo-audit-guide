@@ -6,7 +6,7 @@
 
 - **SEO Research Playbook**：SEO 方法论唯一维护入口；研究、架构、内容、页面优化、技术原理、数据、治理。
 - **WordPress SEO Audit Guide**：WordPress 专项审查标准；操作路径、模板类型、字段与代码输出、通过条件、证据和复测。
-- **WordPress Technical SEO Workbench**：网站级证据、审计任务、负责人、整改状态和历史快照。
+- **WordPress Technical SEO Workbench**：未来计划负责网站级证据、审计任务、负责人、整改状态和历史快照；当前尚未建立。
 
 **禁止重复维护：**新指南不复制 Playbook 的 SEO 原理长文，使用相对明确的引用链接与简短上下文。工作台不再成为第二份标准正文。
 
@@ -26,7 +26,7 @@
 | GSC 分析 | `docs/06-measurement/search-console-analysis.md` | 引用 | URL Inspection 验收记录字段 |
 | 历史内容治理 | `docs/07-governance/content-governance.md` | 引用+专项 | 产品下架、归档、附件、重定向、Sitemap 同步 |
 | 技术检查表 | `checklists/05-optimization/technical-seo.md` | 引用+结构化 | 形成稳定检查 ID 与 WordPress 操作和结果 |
-| 技术审计模板 | `templates/05-optimization/technical-seo.md` | 引用 | 结果输出映射至 Workbench 数据结构 |
+| 技术审计模板 | `templates/05-optimization/technical-seo.md` | 引用 | 结果可记录于独立报告；未来再考虑与 Workbench 数据结构映射 |
 | 内容审核清单 | `checklists/04-content/article-review.md` | 引用 | 文章后台发布前审核字段 |
 | 页面 SEO 检查表 | `checklists/05-optimization/page-seo.md` | 引用 | 主题渲染验证 |
 
@@ -88,7 +88,7 @@
 - `index.html`：与现有 Playbook 相似的 Markdown 阅读入口；专题导航、检索、相关标准及来源引用。正文唯一来源是 `docs/*.md`。
 - `checklist.html`：从独立 JSON 标准字段生成检查清单；支持按首页、分类、产品、文章、上线、季度等场景筛选，以及打印/导出空白检查表。
 
-方法论与操作规范作为 Markdown 文档由 index.html 阅读器打开，不再独立开发 `methodology.html` 和 `standards.html`，避免重复维护。当前网站的实际任务和状态仍然只保存在 Technical SEO Workbench。
+方法论与操作规范作为 Markdown 文档由 index.html 阅读器打开，不再独立开发 `methodology.html` 和 `standards.html`，避免重复维护。当前网站的实际任务和状态应另外归档；Technical SEO Workbench 尚未建立。
 
 ## 5. 推荐数据与目录
 
@@ -132,7 +132,7 @@ wordpress-seo-audit-guide/
 ### 开发与验收要点
 - Markdown 是知识正文唯一来源；JSON 是可执行检查规则来源。
 - 相同标准在文档与 JSON 中只保留一处正式定义或清晰引用，避免互相矛盾。
-- 新站增加审计记录应由 Workbench 完成，不在指南中维护第二份状态。
+- 新站审计记录暂用独立报告或任务表保存，不在指南中维护第二份状态。
 - 每个技术结论写明官方要求、建议实践、适用条件和证据等级。
 - 上线前检查 Markdown 链接、JSON ID 唯一、场景筛选、移动端和打印效果。
 

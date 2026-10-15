@@ -1,6 +1,6 @@
 # WordPress SEO Audit Guide
 
-**v1.0.0 · WordPress SEO 单页面检查标准**
+**v1.0.1 · WordPress SEO 单页面检查标准**
 
 针对 B2B WordPress 网站的新站上线、季度技术复查与日常巡检。直接双击 `index.html` 即可离线打开；内含 6 大模块、38 个稳定编号标准，无后端、数据库或依赖安装。
 
@@ -9,8 +9,8 @@
 - 使用关键词、专题或检查场景过滤。
 - 展开标准，按“目标、位置、方法、合格条件、整改、验收”查看详细说明。
 - 每项另标注检查范围（全站配置、页面类型抽样、按条件检查）和证据要求。
-- 判定状态统一为通过、未通过、待验证、不适用；具体网站的状态和任务仅记录于 Workbench。
-- 打印当前筛选标准；打印前自动展开，不保存页面中的审计结果。
+- 判定状态统一为通过、未通过、待验证、不适用；具体网站的状态和任务记录在独立审计报告或任务表；Workbench 尚未建立。
+- 打印当前筛选标准；打印时自动展开，打印完成后恢复原有展开状态，不保存页面中的审计结果。
 
 ## 技术边界
 
@@ -26,7 +26,7 @@
 
 - [SEO Research Playbook](https://github.com/coowinit/seo-research-playbook)：方法论、关键词、内容与竞争研究。
 - **本仓库**：WordPress 专项标准与检查方法。
-- [Technical SEO Workbench](https://github.com/coowinit/wordpress-technical-seo-workbench)：具体网站审计、证据、整改和归档。
+- **网站审计与整改记录**：目前使用独立的 Markdown、JSON 或任务表保存；`wordpress-technical-seo-workbench` 只是未来规划，尚未建立仓库。
 
 ## 版本
 
@@ -34,3 +34,5 @@
 - v1.0.0：综合四份独立 AI 评审，强化技术准确性、适用性、证据和复测流程；保持 38 项编号与单 HTML 架构。
 
 原始知识规划在 `docs/knowledge-map.md`。本次整改细节在 `docs/REVIEW-AND-REMEDIATION-v1.0.0.md`。
+
+- v1.0.1：发布后校对修订；删除尚未建立的 Workbench 仓库链接和既成事实表述；完善打印分页并在打印结束后恢复展开状态。
