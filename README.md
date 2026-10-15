@@ -1,6 +1,6 @@
 # WordPress SEO Audit Guide
 
-**v1.0.1 · WordPress SEO 单页面检查标准**
+**v1.0.2 · WordPress SEO 单页面检查标准**
 
 针对 B2B WordPress 网站的新站上线、季度技术复查与日常巡检。直接双击 `index.html` 即可离线打开；内含 6 大模块、38 个稳定编号标准，无后端、数据库或依赖安装。
 
@@ -36,3 +36,5 @@
 原始知识规划在 `docs/knowledge-map.md`。本次整改细节在 `docs/REVIEW-AND-REMEDIATION-v1.0.0.md`。
 
 - v1.0.1：发布后校对修订；删除尚未建立的 Workbench 仓库链接和既成事实表述；完善打印分页并在打印结束后恢复展开状态。
+
+- v1.0.2：第二轮三 AI 评审核对，修正空归档判断和 Canonical 说明；明确重复 JSON-LD 的判断、GSC 现场数据路径、检查工具入口；复核专题动态下拉、响应式和打印。
